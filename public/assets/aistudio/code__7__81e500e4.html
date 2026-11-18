@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+
+<html lang="ko"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><title>전기 데일리 브리핑 | Daily Electric Briefing</title><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter,+-apple-system,+BlinkMacSystemFont,+'Pretendard',+sans-serif:wght@100..900&display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={"darkMode":"class","theme":{"extend":{"colors":{"on-tertiary-fixed":"#2d1600","on-error":"#ffffff","surface-container-low":"#f5f3f6","surface-card":"#FFFFFF","amber-vivid":"#EAB308","secondary-fixed":"#dbe1ff","surface-dim":"#dbd9dc","neutral-slate-200":"#E2E8F0","tertiary-fixed":"#ffdcbe","on-secondary-fixed":"#00174b","primary":"#000f22","status-warning-bg":"#FEF3C7","outline":"#74777e","surface-container-high":"#e9e8ea","on-secondary-fixed-variant":"#003ea8","on-tertiary-container":"#ae835a","neutral-slate-600":"#475569","error":"#ba1a1a","tertiary-fixed-dim":"#eebd90","on-secondary-container":"#fefcff","inverse-on-surface":"#f2f0f3","secondary-fixed-dim":"#b4c5ff","background":"#faf9fb","on-error-container":"#93000a","on-primary-fixed-variant":"#314865","error-container":"#ffdad6","surface-variant":"#e3e2e5","inverse-primary":"#b0c8eb","on-tertiary":"#ffffff","primary-fixed-dim":"#b0c8eb","on-primary-fixed":"#001c37","electric-blue-dark":"#1E40AF","tertiary-container":"#381d00","status-warning-border":"#FCD34D","outline-variant":"#c4c6ce","neutral-slate-900":"#0F172A","energy-cyan":"#0EA5E9","volt-amber":"#F59E0B","on-surface-variant":"#43474d","secondary":"#0051d5","surface-container-lowest":"#ffffff","on-background":"#1b1c1e","secondary-container":"#316bf3","on-secondary":"#ffffff","on-tertiary-fixed-variant":"#613f1c","surface":"#faf9fb","surface-container":"#efedf0","primary-container":"#0a2540","on-primary":"#ffffff","neutral-slate-50":"#F8FAFC","status-warning-text":"#92400E","surface-bright":"#faf9fb","surface-container-highest":"#e3e2e5","surface-tint":"#49607e","tertiary":"#1a0b00","primary-fixed":"#d2e4ff","on-surface":"#1b1c1e","inverse-surface":"#2f3033","on-primary-container":"#768dad"},"borderRadius":{"DEFAULT":"0.125rem","lg":"0.25rem","xl":"0.5rem","full":"0.75rem"},"spacing":{"space-lg":"1.5rem","space-xs":"0.25rem","space-sm":"0.5rem","gutter-mobile":"1rem","margin-mobile":"1rem","space-xl":"2.5rem","space-md":"1rem","gutter":"1.5rem","margin":"2rem"},"fontFamily":{"label-sm":["\"Inter, -apple-system, BlinkMacSystemFont, 'Pretendard', sans-serif\""],"headline-xl":["\"Inter, -apple-system, BlinkMacSystemFont, 'Pretendard', sans-serif\""],"headline-sm":["\"Inter, -apple-system, BlinkMacSystemFont, 'Pretendard', sans-serif\""],"body-md":["\"Inter, -apple-system, BlinkMacSystemFont, 'Pretendard', sans-serif\""],"headline-lg-mobile":["\"Inter, -apple-system, BlinkMacSystemFont, 'Pretendard', sans-serif\""],"headline-md":["\"Inter, -apple-system, BlinkMacSystemFont, 'Pretendard', sans-serif\""],"body-lg":["\"Inter, -apple-system, BlinkMacSystemFont, 'Pretendard', sans-serif\""],"body-sm":["\"Inter, -apple-system, BlinkMacSystemFont, 'Pretendard', sans-serif\""],"headline-lg":["\"Inter, -apple-system, BlinkMacSystemFont, 'Pretendard', sans-serif\""],"headline-xl-mobile":["\"Inter, -apple-system, BlinkMacSystemFont, 'Pretendard', sans-serif\""],"label-md":["\"Inter, -apple-system, BlinkMacSystemFont, 'Pretendard', sans-serif\""]},"fontSize":{"label-sm":["11px",{"lineHeight":"14px","letterSpacing":"0.04em","fontWeight":"700"}],"headline-xl":["32px",{"lineHeight":"40px","letterSpacing":"-0.02em","fontWeight":"800"}],"headline-sm":["16px",{"lineHeight":"24px","fontWeight":"600"}],"body-md":["14px",{"lineHeight":"22px","fontWeight":"400"}],"headline-lg-mobile":["20px",{"lineHeight":"28px","letterSpacing":"-0.01em","fontWeight":"700"}],"headline-md":["18px",{"lineHeight":"26px","letterSpacing":"-0.01em","fontWeight":"700"}],"body-lg":["16px",{"lineHeight":"26px","fontWeight":"400"}],"body-sm":["13px",{"lineHeight":"19px","fontWeight":"400"}],"headline-lg":["24px",{"lineHeight":"32px","letterSpacing":"-0.015em","fontWeight":"700"}],"headline-xl-mobile":["24px",{"lineHeight":"32px","letterSpacing":"-0.015em","fontWeight":"800"}],"label-md":["13px",{"lineHeight":"16px","letterSpacing":"0.01em","fontWeight":"600"}]}}}}</script></head><body class="bg-background font-body-md text-on-surface antialiased min-h-screen"><header class="fixed top-0 left-0 right-0 z-50 bg-surface-card/95 backdrop-blur-md shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-16 max-w-7xl mx-auto px-gutter flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-md shrink-0"><div class="flex items-center gap-space-sm"><div class="w-8 h-8 rounded-lg bg-primary-container flex items-center justify-center text-on-primary shadow-sm"><span class="material-symbols-outlined text-volt-amber text-[20px]">bolt</span></div><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-primary tracking-tight">전기 데일리 브리핑</span><span class="font-label-sm text-label-sm text-neutral-slate-600 hidden sm:inline-block">Daily Electric Briefing</span></div></div><div class="hidden xl:flex items-center gap-space-xs bg-surface-container-low px-space-sm py-1 rounded-full text-on-surface-variant"><span class="material-symbols-outlined text-[16px] text-electric-blue-dark">schedule</span><span class="font-label-sm text-label-sm">2026년 11월 18일 수요일 · 10:00 KST 갱신</span></div></div><nav class="hidden lg:flex items-center gap-space-xs p-1 bg-surface-container-low rounded-xl" data-active-classes="bg-primary text-on-primary font-headline-sm shadow-sm"><a class="px-space-md py-1.5 rounded-lg font-headline-sm text-headline-sm text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all" data-path="daily-briefing" href="#">오늘의 브리핑</a><a class="px-space-md py-1.5 rounded-lg font-headline-sm text-headline-sm text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all" data-path="bookmarks" href="#">북마크 (저장됨 3)</a><a class="px-space-md py-1.5 rounded-lg font-headline-sm text-headline-sm text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all" data-path="search-filter" href="#">검색</a><a aria-current="page" class="px-space-md py-1.5 rounded-lg transition-all bg-primary text-on-primary font-headline-sm shadow-sm" data-path="system-updates" href="#">업데이트 안내</a></nav><div class="flex items-center gap-space-sm shrink-0"><div class="hidden md:flex items-center gap-1.5 px-space-sm py-1 bg-secondary-fixed/50 text-on-secondary-fixed rounded-lg"><span class="material-symbols-outlined text-[16px] text-secondary">verified</span><span class="font-label-sm text-label-sm">전기신문 공식 제휴</span></div><button aria-label="기사 검색" class="p-2 text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low rounded-lg transition-colors" type="button"><span class="material-symbols-outlined text-[20px]">search</span></button><button aria-label="북마크 확인" class="relative p-2 text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low rounded-lg transition-colors" type="button"><span class="material-symbols-outlined text-[20px]">bookmark</span><span class="absolute top-1.5 right-1.5 w-4 h-4 bg-secondary text-on-secondary font-label-sm text-[10px] rounded-full flex items-center justify-center font-bold">3</span></button><img alt="Profile" class="w-8 h-8 rounded-full object-cover shadow-sm" src="https://lh3.googleusercontent.com/aida/ALJJyrA3i8RlM5iQaSaQv398vZuCkNn-kkRsnsj4Bsla_eLdDMWXcfJomb7jBasvqaDnyjcMb0Iy2fsZYkWX2Fl5rNOkp-zDEVwBkEyRSnCXSaLanp89idBZWXX6czfb9feMw3VdLHDuvOg1fbmdl7JARB2dFqReGZK3FaOn5NMWREygpPojvBuOxZMMn1jOhSlbqXaNiqtSDZGJ7XJZzdDgjqT8jGEPgTQDKN-sINfQCsG-"/></div></div></header><main class="w-full pt-16 bg-background min-h-[calc(100vh-140px)]"><div class="max-w-7xl mx-auto px-gutter py-space-lg"><div class="flex flex-col w-full">
+<!-- Top Notification / Fallback Banner -->
+<div class="w-full bg-status-warning-bg rounded-xl p-space-md shadow-sm mb-space-lg transition-all duration-300" id="fallback-banner">
+<div class="flex flex-col lg:flex-row lg:items-center justify-between gap-space-md">
+<div class="flex items-start sm:items-center gap-space-sm">
+<div class="w-10 h-10 rounded-lg bg-volt-amber/20 flex items-center justify-center shrink-0 text-status-warning-text">
+<span class="material-symbols-outlined text-[24px]">pending_actions</span>
+</div>
+<div class="flex flex-col">
+<div class="flex items-center gap-2 flex-wrap">
+<span class="font-headline-sm text-headline-sm text-status-warning-text tracking-tight">
+              오늘의 전기 뉴스 요약이 아직 준비되지 않았어요.
+            </span>
+<span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-volt-amber/25 text-status-warning-text font-label-sm text-label-sm">
+<span class="w-1.5 h-1.5 rounded-full bg-volt-amber animate-pulse"></span>
+              파이프라인 대기 중
+            </span>
+</div>
+<p class="font-body-md text-body-md text-status-warning-text/90 mt-0.5">
+            어제(<span class="font-headline-sm text-status-warning-text underline decoration-volt-amber/50">2026년 11월 17일 화요일</span>) 최종 검증 요약을 보여드릴게요.
+          </p>
+</div>
+</div>
+<div class="flex items-center gap-space-sm shrink-0 self-end lg:self-center">
+<div class="hidden sm:flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-surface-card/80 text-status-warning-text shadow-sm">
+<span class="material-symbols-outlined text-[18px] text-volt-amber">alarm</span>
+<span class="font-label-md text-label-md">오전 10:00 자동 갱신 예정</span>
+</div>
+<button class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-status-warning-text text-on-error font-label-md text-label-md hover:bg-neutral-slate-900 transition-colors shadow-sm active:scale-95" id="refresh-action-btn" type="button">
+<span class="material-symbols-outlined text-[18px]" id="refresh-icon">sync</span>
+<span>지금 새로고침</span>
+</button>
+<button aria-label="배너 닫기" class="p-1.5 rounded-lg text-status-warning-text hover:bg-volt-amber/20 transition-colors" onclick="document.getElementById('fallback-banner').classList.add('hidden')" type="button">
+<span class="material-symbols-outlined text-[20px]">close</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Primary Content Grid & Slide-Over Wrapper -->
+<div class="relative w-full flex flex-col xl:flex-row gap-space-lg items-start">
+<!-- Main Left Stream Area -->
+<div class="flex-1 w-full flex flex-col gap-space-lg">
+<!-- Date Heading with Fallback Cue Badge -->
+<div class="flex flex-col sm:flex-row sm:items-end justify-between gap-space-sm pb-space-xs">
+<div class="flex flex-col">
+<div class="flex items-center gap-space-sm mb-1">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-neutral-slate-600">Archived Dispatch</span>
+<span class="px-2 py-0.5 rounded-lg bg-surface-container-high text-neutral-slate-600 font-label-sm text-label-sm">최근 정상 발행판</span>
+</div>
+<h1 class="font-headline-xl text-headline-xl text-primary tracking-tight">
+            2026년 11월 17일 화요일 브리핑
+          </h1>
+</div>
+<div class="flex items-center gap-space-xs text-neutral-slate-600 font-body-sm text-body-sm">
+<span class="material-symbols-outlined text-[16px] text-volt-amber">history</span>
+<span>기준시점: 2026.11.17 18:00 KST 공시 확정분</span>
+</div>
+</div>
+<!-- Hero Core 3-Line Summary Card (Tinted tone to emphasize yesterday's snapshot) -->
+<div class="relative w-full bg-surface-card rounded-xl p-space-lg shadow-sm overflow-hidden">
+<!-- Top Accent Rule -->
+<div class="absolute top-0 left-0 right-0 h-[3px] bg-gradient-to-r from-volt-amber via-energy-cyan to-secondary"></div>
+<div class="absolute -right-12 -bottom-12 w-48 h-48 rounded-full bg-surface-container-low pointer-events-none"></div>
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-space-sm pb-space-md">
+<div class="flex items-center gap-space-sm">
+<div class="w-7 h-7 rounded-lg bg-volt-amber/15 flex items-center justify-center text-volt-amber">
+<span class="material-symbols-outlined text-[18px]">electric_bolt</span>
+</div>
+<span class="font-headline-md text-headline-md text-primary tracking-tight">어제자 핵심 3문장 AI 종합 브리핑</span>
+</div>
+<div class="flex items-center gap-space-xs font-label-sm text-label-sm text-neutral-slate-600 bg-surface-container-low px-2.5 py-1 rounded-full">
+<span class="material-symbols-outlined text-[15px] text-secondary">psychology</span>
+<span>전력계통 AI 인텔리전스 추출</span>
+</div>
+</div>
+<div class="grid grid-cols-1 gap-space-sm pt-space-xs">
+<div class="flex items-start gap-space-md p-space-sm rounded-lg bg-surface-container-low/60 hover:bg-surface-container-low transition-colors">
+<span class="font-headline-lg text-headline-lg text-secondary font-black shrink-0 leading-none mt-1">01</span>
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm text-primary">제11차 전력수급기본계획 확정안 반영 가속화</span>
+<p class="font-body-md text-body-md text-neutral-slate-600 mt-0.5">
+                산업통상자원부가 무탄소 전원 비중 70% 도달 목표를 위해 수도권-동해안 간 HVDC 초고압 직류 송전선로 1단계 준공 시점을 2027년 1분기로 재확정했습니다.
+              </p>
+</div>
+</div>
+<div class="flex items-start gap-space-md p-space-sm rounded-lg bg-surface-container-low/60 hover:bg-surface-container-low transition-colors">
+<span class="font-headline-lg text-headline-lg text-secondary font-black shrink-0 leading-none mt-1">02</span>
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm text-primary">SMP 상한제 유예 속 계통한계가격 하향 안정세</span>
+<p class="font-body-md text-body-md text-neutral-slate-600 mt-0.5">
+                LNG 직도입 단가 완화와 재생에너지 발전 예측 오차율 3.8%대 진입으로 전국 육지 평균 SMP가 kWh당 118.4원으로 마감되며 한전 전력구입비 부담이 경감되었습니다.
+              </p>
+</div>
+</div>
+<div class="flex items-start gap-space-md p-space-sm rounded-lg bg-surface-container-low/60 hover:bg-surface-container-low transition-colors">
+<span class="font-headline-lg text-headline-lg text-secondary font-black shrink-0 leading-none mt-1">03</span>
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm text-primary">제주 및 호남권 출력제어 완화용 BESS 실증 확대</span>
+<p class="font-body-md text-body-md text-neutral-slate-600 mt-0.5">
+                전력거래소(KPX)는 재생에너지 입찰제도 고도화에 발맞추어 400MWh 규모 단주기 계통연계 ESS 신규 상업운전을 가동, 봄철 출력제어율을 4.2%p 낮출 전망입니다.
+              </p>
+</div>
+</div>
+</div>
+<div class="mt-space-md pt-space-sm flex flex-wrap items-center justify-between gap-space-sm bg-surface-container/50 px-space-md py-2.5 rounded-lg text-neutral-slate-600 font-body-sm text-body-sm">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-[16px] text-neutral-slate-600">verified</span>
+<span>분석 신뢰도: 전기신문 사설 및 송배전 본부 팩트체크 100% 완료</span>
+</div>
+<span class="font-label-sm text-label-sm text-electric-blue-dark font-semibold">총 10건 심층 기사 선별 완료</span>
+</div>
+</div>
+<!-- Infrastructure Pipeline Monitor Card -->
+<div class="w-full bg-primary-container text-on-primary rounded-xl p-space-md shadow-sm">
+<div class="flex flex-col md:flex-row md:items-center justify-between gap-space-md">
+<div class="flex items-center gap-space-md">
+<div class="w-10 h-10 rounded-lg bg-surface-container-lowest/10 flex items-center justify-center text-volt-amber">
+<span class="material-symbols-outlined text-[24px]">terminal</span>
+</div>
+<div class="flex flex-col">
+<div class="flex items-center gap-2">
+<span class="font-headline-sm text-headline-sm text-on-primary tracking-tight">수집 파이프라인 관제 현황</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-lowest/20 text-volt-amber font-label-sm text-label-sm font-semibold">GitHub Actions 정기 실행 연동</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-primary-container mt-0.5">
+                매일 오전 10시 정각 전기신문 RSS 및 기사 아카이브 크롤러 자동 동작 준비 중 (소요 예상: 약 80초)
+              </p>
+</div>
+</div>
+<div class="flex items-center gap-space-lg shrink-0 self-start md:self-center bg-surface-container-lowest/5 px-space-md py-2 rounded-lg">
+<div class="flex flex-col items-start">
+<span class="font-label-sm text-label-sm text-on-primary-container uppercase">다음 동기화</span>
+<span class="font-headline-sm text-headline-sm text-on-primary font-mono font-bold" id="countdown-timer">00:18:42</span>
+</div>
+<div class="h-6 w-px bg-surface-container-lowest/15"></div>
+<div class="flex flex-col items-start">
+<span class="font-label-sm text-label-sm text-on-primary-container uppercase">상태 플래그</span>
+<span class="font-headline-sm text-headline-sm text-volt-amber flex items-center gap-1">
+<span class="w-2 h-2 rounded-full bg-volt-amber"></span>
+                STANDBY
+              </span>
+</div>
+</div>
+</div>
+</div>
+<!-- Section Title & Category Filter Pills -->
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-space-sm pt-space-xs">
+<div class="flex items-center gap-space-sm">
+<h2 class="font-headline-lg text-headline-lg text-primary tracking-tight">
+            어제자 주요 기사 <span class="text-secondary font-headline-lg">10건</span>
+</h2>
+<span class="font-label-sm text-label-sm text-neutral-slate-600 bg-surface-container-high px-2 py-0.5 rounded-full">전체 검증 완료</span>
+</div>
+<div class="flex items-center gap-1.5 overflow-x-auto pb-1 sm:pb-0">
+<button class="px-3 py-1 rounded-lg bg-primary text-on-primary font-headline-sm text-headline-sm text-xs shadow-sm" type="button">전체 (10)</button>
+<button class="px-3 py-1 rounded-lg bg-surface-container-high text-neutral-slate-600 font-headline-sm text-headline-sm text-xs hover:bg-surface-container transition-colors" type="button">계통/망 (3)</button>
+<button class="px-3 py-1 rounded-lg bg-surface-container-high text-neutral-slate-600 font-headline-sm text-headline-sm text-xs hover:bg-surface-container transition-colors" type="button">시장/SMP (3)</button>
+<button class="px-3 py-1 rounded-lg bg-surface-container-high text-neutral-slate-600 font-headline-sm text-headline-sm text-xs hover:bg-surface-container transition-colors" type="button">원전/에너지 (2)</button>
+<button class="px-3 py-1 rounded-lg bg-surface-container-high text-neutral-slate-600 font-headline-sm text-headline-sm text-xs hover:bg-surface-container transition-colors" type="button">신재생 (2)</button>
+</div>
+</div>
+<!-- 10 Article Cards Grid (Structured Matrix) -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-md">
+<!-- Article Card 1 -->
+<div class="article-card group relative bg-surface-card rounded-xl p-space-md shadow-sm hover:shadow-md transition-all cursor-pointer flex flex-col justify-between" data-article-id="1">
+<div class="flex flex-col">
+<div class="flex items-center justify-between gap-space-sm mb-space-sm">
+<div class="flex items-center gap-2">
+<span class="font-headline-sm text-headline-sm font-black text-secondary">01</span>
+<span class="px-2 py-0.5 rounded-lg bg-secondary-fixed text-on-secondary-fixed font-label-sm text-label-sm">계통/전력망</span>
+<span class="font-label-sm text-label-sm text-neutral-slate-600">2026.11.17 17:40</span>
+</div>
+<button aria-label="북마크" class="bookmark-btn p-1.5 rounded-lg text-outline-variant hover:text-volt-amber hover:bg-surface-container-low transition-colors" onclick="event.stopPropagation(); toggleBookmark(this)" type="button">
+<span class="material-symbols-outlined text-[20px]">bookmark</span>
+</button>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary group-hover:text-secondary transition-colors line-clamp-2 leading-snug">
+              동해안-수도권 500kV HVDC 1단계 2027년 초 연계 확정... 송전 제약 해소 가시화
+            </h3>
+<!-- 3-sentence extraction preview -->
+<div class="mt-space-sm space-y-1.5 bg-surface-container-low/50 p-2.5 rounded-lg text-neutral-slate-600 font-body-sm text-body-sm">
+<p class="line-clamp-1"><strong class="text-primary font-headline-sm text-xs">①</strong> 한전, 강원 삼척-경기 양평 230km 초고압 직류 송전선로 타워 조립 공정률 91% 달성.</p>
+<p class="line-clamp-1"><strong class="text-primary font-headline-sm text-xs">②</strong> 동해안 원전·화력발전소 약 4.2GW 발전제약 해소로 계통 안정도 대폭 개선 기대.</p>
+<p class="line-clamp-1"><strong class="text-primary font-headline-sm text-xs">③</strong> 동선 경과지 주민 상생 협약 완료에 따라 인허가 리스크 완전 해소 보고.</p>
+</div>
+</div>
+<div class="mt-space-md pt-space-xs flex items-center justify-between">
+<div class="flex items-center gap-1.5 flex-wrap">
+<span class="px-2 py-0.5 rounded bg-surface-container-high text-electric-blue-dark font-label-sm text-label-sm">#HVDC</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-high text-electric-blue-dark font-label-sm text-label-sm">#송전선로</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-high text-electric-blue-dark font-label-sm text-label-sm">#계통제약</span>
+</div>
+<span class="material-symbols-outlined text-outline text-[18px] group-hover:translate-x-1 transition-transform group-hover:text-secondary">arrow_forward</span>
+</div>
+</div>
+<!-- Article Card 2 -->
+<div class="article-card group relative bg-surface-card rounded-xl p-space-md shadow-sm hover:shadow-md transition-all cursor-pointer flex flex-col justify-between" data-article-id="2">
+<div class="flex flex-col">
+<div class="flex items-center justify-between gap-space-sm mb-space-sm">
+<div class="flex items-center gap-2">
+<span class="font-headline-sm text-headline-sm font-black text-secondary">02</span>
+<span class="px-2 py-0.5 rounded-lg bg-surface-container-high text-neutral-slate-600 font-label-sm text-label-sm">전력시장</span>
+<span class="font-label-sm text-label-sm text-neutral-slate-600">2026.11.17 16:30</span>
+</div>
+<button aria-label="북마크" class="bookmark-btn p-1.5 rounded-lg text-volt-amber hover:bg-surface-container-low transition-colors" onclick="event.stopPropagation(); toggleBookmark(this)" type="button">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">bookmark</span>
+</button>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary group-hover:text-secondary transition-colors line-clamp-2 leading-snug">
+              11월 중순 전력거래소 육지 SMP 118.4원 기록, LNG 수입가격 하향 안정 효과
+            </h3>
+<div class="mt-space-sm space-y-1.5 bg-surface-container-low/50 p-2.5 rounded-lg text-neutral-slate-600 font-body-sm text-body-sm">
+<p class="line-clamp-1"><strong class="text-primary font-headline-sm text-xs">①</strong> 전력도매가격(SMP)이 글로벌 천연가스 현물가격 조정으로 전월 대비 6.8원 하락.</p>
+<p class="line-clamp-1"><strong class="text-primary font-headline-sm text-xs">②</strong> 동계 전력수급 대책기간 진입 전 한전의 누적 적자 회수 속도에 긍정 신호 분석.</p>
+<p class="line-clamp-1"><strong class="text-primary font-headline-sm text-xs">③</strong> 민간 발전사 정산조정계수 추가 개편 여부에 대한 논의 본격화 전망.</p>
+</div>
+</div>
+<div class="mt-space-md pt-space-xs flex items-center justify-between">
+<div class="flex items-center gap-1.5 flex-wrap">
+<span class="px-2 py-0.5 rounded bg-surface-container-high text-electric-blue-dark font-label-sm text-label-sm">#SMP</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-high text-electric-blue-dark font-label-sm text-label-sm">#KPX</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-high text-electric-blue-dark font-label-sm text-label-sm">#전력도매가격</span>
+</div>
+<span class="material-symbols-outlined text-outline text-[18px] group-hover:translate-x-1 transition-transform group-hover:text-secondary">arrow_forward</span>
+</div>
+</div>
+<!-- Article Card 3 -->
+<div class="article-card group relative bg-surface-card rounded-xl p-space-md shadow-sm hover:shadow-md transition-all cursor-pointer flex flex-col justify-between" data-article-id="3">
+<div class="flex flex-col">
+<div class="flex items-center justify-between gap-space-sm mb-space-sm">
+<div class="flex items-center gap-2">
+<span class="font-headline-sm text-headline-sm font-black text-secondary">03</span>
+<span class="px-2 py-0.5 rounded-lg bg-surface-container-high text-neutral-slate-600 font-label-sm text-label-sm">원전/정책</span>
+<span class="font-label-sm text-label-sm text-neutral-slate-600">2026.11.17 15:10</span>
+</div>
+<button aria-label="북마크" class="bookmark-btn p-1.5 rounded-lg text-outline-variant hover:text-volt-amber hover:bg-surface-container-low transition-colors" onclick="event.stopPropagation(); toggleBookmark(this)" type="button">
+<span class="material-symbols-outlined text-[20px]">bookmark</span>
+</button>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary group-hover:text-secondary transition-colors line-clamp-2 leading-snug">
+              체코 두코바니 신규 원전 최종 본계약 체결 협상단 프라하 급파
+            </h3>
+<div class="mt-space-sm space-y-1.5 bg-surface-container-low/50 p-2.5 rounded-lg text-neutral-slate-600 font-body-sm text-body-sm">
+<p class="line-clamp-1"><strong class="text-primary font-headline-sm text-xs">①</strong> 한국수력원자력 및 팀코리아 실무단이 계약 세부 조항 및 금융 조달 마무리 협의 착수.</p>
+<p class="line-clamp-1"><strong class="text-primary font-headline-sm text-xs">②</strong> 24조원 규모 2기 건설 프로젝트의 2029년 착공 목표 일정 순항 중.</p>
+<p class="line-clamp-1"><strong class="text-primary font-headline-sm text-xs">③</strong> 현지 기자재 공급망 참여율 60% 이상 합의안 최종 확정 임박.</p>
+</div>
+</div>
+<div class="mt-space-md pt-space-xs flex items-center justify-between">
+<div class="flex items-center gap-1.5 flex-wrap">
+<span class="px-2 py-0.5 rounded bg-surface-container-high text-electric-blue-dark font-label-sm text-label-sm">#한수원</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-high text-electric-blue-dark font-label-sm text-label-sm">#두코바니</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-high text-electric-blue-dark font-label-sm text-label-sm">#원전수출</span>
+</div>
+<span class="material-symbols-outlined text-outline text-[18px] group-hover:translate-x-1 transition-transform group-hover:text-secondary">arrow_forward</span>
+</div>
+</div>
+<!-- Article Card 4 -->
+<div class="article-card group relative bg-surface-card rounded-xl p-space-md shadow-sm hover:shadow-md transition-all cursor-pointer flex flex-col justify-between" data-article-id="4">
+<div class="flex flex-col">
+<div class="flex items-center justify-between gap-space-sm mb-space-sm">
+<div class="flex items-center gap-2">
+<span class="font-headline-sm text-headline-sm font-black text-secondary">04</span>
+<span class="px-2 py-0.5 rounded-lg bg-surface-container-high text-neutral-slate-600 font-label-sm text-label-sm">신재생/ESS</span>
+<span class="font-label-sm text-label-sm text-neutral-slate-600">2026.11.17 14:05</span>
+</div>
+<button aria-label="북마크" class="bookmark-btn p-1.5 rounded-lg text-outline-variant hover:text-volt-amber hover:bg-surface-container-low transition-colors" onclick="event.stopPropagation(); toggleBookmark(this)" type="button">
+<span class="material-symbols-outlined text-[20px]">bookmark</span>
+</button>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary group-hover:text-secondary transition-colors line-clamp-2 leading-snug">
+              제주 재생에너지 실시간 입찰제도 도입 2년차... 계통 오차율 3%대로 축소
+            </h3>
+<div class="mt-space-sm space-y-1.5 bg-surface-container-low/50 p-2.5 rounded-lg text-neutral-slate-600 font-body-sm text-body-sm">
+<p class="line-clamp-1"><strong class="text-primary font-headline-sm text-xs">①</strong> 기상 예측 AI와 가상발전소(VPP) 융합으로 풍력·태양광의 가격입찰 참여 성공적 안착.</p>
+<p class="line-clamp-1"><strong class="text-primary font-headline-sm text-xs">②</strong> 2026년 상반기 내 호남권 육지 계통으로의 확대 적용 가속 페달.</p>
+<p class="line-clamp-1"><strong class="text-primary font-headline-sm text-xs">③</strong> 용량요금(CP) 보상 기준 구체화로 신재생 사업자의 안정적 수익 기반 마련.</p>
+</div>
+</div>
+<div class="mt-space-md pt-space-xs flex items-center justify-between">
+<div class="flex items-center gap-1.5 flex-wrap">
+<span class="px-2 py-0.5 rounded bg-surface-container-high text-electric-blue-dark font-label-sm text-label-sm">#VPP</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-high text-electric-blue-dark font-label-sm text-label-sm">#실시간입찰</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-high text-electric-blue-dark font-label-sm text-label-sm">#제주계통</span>
+</div>
+<span class="material-symbols-outlined text-outline text-[18px] group-hover:translate-x-1 transition-transform group-hover:text-secondary">arrow_forward</span>
+</div>
+</div>
+<!-- Article Card 5 -->
+<div class="article-card group relative bg-surface-card rounded-xl p-space-md shadow-sm hover:shadow-md transition-all cursor-pointer flex flex-col justify-between" data-article-id="5">
+<div class="flex flex-col">
+<div class="flex items-center justify-between gap-space-sm mb-space-sm">
+<div class="flex items-center gap-2">
+<span class="font-headline-sm text-headline-sm font-black text-secondary">05</span>
+<span class="px-2 py-0.5 rounded-lg bg-surface-container-high text-neutral-slate-600 font-label-sm text-label-sm">산업/요금</span>
+<span class="font-label-sm text-label-sm text-neutral-slate-600">2026.11.17 11:55</span>
+</div>
+<button aria-label="북마크" class="bookmark-btn p-1.5 rounded-lg text-volt-amber hover:bg-surface-container-low transition-colors" onclick="event.stopPropagation(); toggleBookmark(this)" type="button">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">bookmark</span>
+</button>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary group-hover:text-secondary transition-colors line-clamp-2 leading-snug">
+              산업용 전기요금 구조개편 심포지엄 개최... 지역별 차등요금제(LMP) 단계적 도입안
+            </h3>
+<div class="mt-space-sm space-y-1.5 bg-surface-container-low/50 p-2.5 rounded-lg text-neutral-slate-600 font-body-sm text-body-sm">
+<p class="line-clamp-1"><strong class="text-primary font-headline-sm text-xs">①</strong> 발전소 인접 해안권과 전력 소비 중심 수도권 간 송전 손실 비용을 요금에 직접 반영안.</p>
+<p class="line-clamp-1"><strong class="text-primary font-headline-sm text-xs">②</strong> 데이터센터 등 전력 다소비 기업의 지방 분산 유도 효과 시뮬레이션 공개.</p>
+<p class="line-clamp-1"><strong class="text-primary font-headline-sm text-xs">③</strong> 제조업계 "급격한 원가 상승 방지용 완충 장치 필요" 건의문 정부 전달.</p>
+</div>
+</div>
+<div class="mt-space-md pt-space-xs flex items-center justify-between">
+<div class="flex items-center gap-1.5 flex-wrap">
+<span class="px-2 py-0.5 rounded bg-surface-container-high text-electric-blue-dark font-label-sm text-label-sm">#차등요금제</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-high text-electric-blue-dark font-label-sm text-label-sm">#산업용을</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-high text-electric-blue-dark font-label-sm text-label-sm">#데이터센터</span>
+</div>
+<span class="material-symbols-outlined text-outline text-[18px] group-hover:translate-x-1 transition-transform group-hover:text-secondary">arrow_forward</span>
+</div>
+</div>
+<!-- Article Card 6 -->
+<div class="article-card group relative bg-surface-card rounded-xl p-space-md shadow-sm hover:shadow-md transition-all cursor-pointer flex flex-col justify-between" data-article-id="6">
+<div class="flex flex-col">
+<div class="flex items-center justify-between gap-space-sm mb-space-sm">
+<div class="flex items-center gap-2">
+<span class="font-headline-sm text-headline-sm font-black text-secondary">06</span>
+<span class="px-2 py-0.5 rounded-lg bg-surface-container-high text-neutral-slate-600 font-label-sm text-label-sm">탄소중립/수소</span>
+<span class="font-label-sm text-label-sm text-neutral-slate-600">2026.11.17 11:20</span>
+</div>
+<button aria-label="북마크" class="bookmark-btn p-1.5 rounded-lg text-outline-variant hover:text-volt-amber hover:bg-surface-container-low transition-colors" onclick="event.stopPropagation(); toggleBookmark(this)" type="button">
+<span class="material-symbols-outlined text-[20px]">bookmark</span>
+</button>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary group-hover:text-secondary transition-colors line-clamp-2 leading-snug">
+              청정수소발전의무화(CHPS) 입찰 시장 개설 1년, 350MW급 첫 상업발전 가동 승인
+            </h3>
+<div class="mt-space-sm space-y-1.5 bg-surface-container-low/50 p-2.5 rounded-lg text-neutral-slate-600 font-body-sm text-body-sm">
+<p class="line-clamp-1"><strong class="text-primary font-headline-sm text-xs">①</strong> 수소 50% 혼소 가스터빈 발전기 실증 안전성 인증 통과 및 첫 전력 계통 투입.</p>
+<p class="line-clamp-1"><strong class="text-primary font-headline-sm text-xs">②</strong> 온실가스 배출 계수 기준 21% 저감 효과 공식 실측치 발표.</p>
+<p class="line-clamp-1"><strong class="text-primary font-headline-sm text-xs">③</strong> 한전 산하 5개 발전자회사, 2030년까지 혼소 비율 70% 확대 로드맵 재확인.</p>
+</div>
+</div>
+<div class="mt-space-md pt-space-xs flex items-center justify-between">
+<div class="flex items-center gap-1.5 flex-wrap">
+<span class="px-2 py-0.5 rounded bg-surface-container-high text-electric-blue-dark font-label-sm text-label-sm">#CHPS</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-high text-electric-blue-dark font-label-sm text-label-sm">#수소혼소</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-high text-electric-blue-dark font-label-sm text-label-sm">#가스터빈</span>
+</div>
+<span class="material-symbols-outlined text-outline text-[18px] group-hover:translate-x-1 transition-transform group-hover:text-secondary">arrow_forward</span>
+</div>
+</div>
+<!-- Article Card 7 -->
+<div class="article-card group relative bg-surface-card rounded-xl p-space-md shadow-sm hover:shadow-md transition-all cursor-pointer flex flex-col justify-between" data-article-id="7">
+<div class="flex flex-col">
+<div class="flex items-center justify-between gap-space-sm mb-space-sm">
+<div class="flex items-center gap-2">
+<span class="font-headline-sm text-headline-sm font-black text-secondary">07</span>
+<span class="px-2 py-0.5 rounded-lg bg-surface-container-high text-neutral-slate-600 font-label-sm text-label-sm">변전/설비</span>
+<span class="font-label-sm text-label-sm text-neutral-slate-600">2026.11.17 10:45</span>
+</div>
+<button aria-label="북마크" class="bookmark-btn p-1.5 rounded-lg text-outline-variant hover:text-volt-amber hover:bg-surface-container-low transition-colors" onclick="event.stopPropagation(); toggleBookmark(this)" type="button">
+<span class="material-symbols-outlined text-[20px]">bookmark</span>
+</button>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary group-hover:text-secondary transition-colors line-clamp-2 leading-snug">
+              변전소 디지털 트윈 및 SF6 감축용 친환경 GIS(가스절연개폐기) 발주 확대
+            </h3>
+<div class="mt-space-sm space-y-1.5 bg-surface-container-low/50 p-2.5 rounded-lg text-neutral-slate-600 font-body-sm text-body-sm">
+<p class="line-clamp-1"><strong class="text-primary font-headline-sm text-xs">①</strong> 지구온난화지수(GWP) 1 이하 g4 대체 가스 기반 초고압 170kV GIS 전면 규격화.</p>
+<p class="line-clamp-1"><strong class="text-primary font-headline-sm text-xs">②</strong> LS일렉트릭·HD현대일렉트릭 등 국내 중전기기 3사 신규 수주 물량 급증.</p>
+<p class="line-clamp-1"><strong class="text-primary font-headline-sm text-xs">③</strong> 한전 송변전처, 전국 45개 노후 154kV 변전소 순차 개체 계획 발표.</p>
+</div>
+</div>
+<div class="mt-space-md pt-space-xs flex items-center justify-between">
+<div class="flex items-center gap-1.5 flex-wrap">
+<span class="px-2 py-0.5 rounded bg-surface-container-high text-electric-blue-dark font-label-sm text-label-sm">#친환경GIS</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-high text-electric-blue-dark font-label-sm text-label-sm">#디지털트윈</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-high text-electric-blue-dark font-label-sm text-label-sm">#중전기기</span>
+</div>
+<span class="material-symbols-outlined text-outline text-[18px] group-hover:translate-x-1 transition-transform group-hover:text-secondary">arrow_forward</span>
+</div>
+</div>
+<!-- Article Card 8 -->
+<div class="article-card group relative bg-surface-card rounded-xl p-space-md shadow-sm hover:shadow-md transition-all cursor-pointer flex flex-col justify-between" data-article-id="8">
+<div class="flex flex-col">
+<div class="flex items-center justify-between gap-space-sm mb-space-sm">
+<div class="flex items-center gap-2">
+<span class="font-headline-sm text-headline-sm font-black text-secondary">08</span>
+<span class="px-2 py-0.5 rounded-lg bg-surface-container-high text-neutral-slate-600 font-label-sm text-label-sm">원자력</span>
+<span class="font-label-sm text-label-sm text-neutral-slate-600">2026.11.17 09:50</span>
+</div>
+<button aria-label="북마크" class="bookmark-btn p-1.5 rounded-lg text-outline-variant hover:text-volt-amber hover:bg-surface-container-low transition-colors" onclick="event.stopPropagation(); toggleBookmark(this)" type="button">
+<span class="material-symbols-outlined text-[20px]">bookmark</span>
+</button>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary group-hover:text-secondary transition-colors line-clamp-2 leading-snug">
+              신한울 3·4호기 본관 기초 굴착 공사 완료, 주기기 제작 공정률 35% 돌파
+            </h3>
+<div class="mt-space-sm space-y-1.5 bg-surface-container-low/50 p-2.5 rounded-lg text-neutral-slate-600 font-body-sm text-body-sm">
+<p class="line-clamp-1"><strong class="text-primary font-headline-sm text-xs">①</strong> 원자로격납건물 기초 콘크리트 타설 착수를 위한 규제기관 최종 검사 합격 통보.</p>
+<p class="line-clamp-1"><strong class="text-primary font-headline-sm text-xs">②</strong> 두산에너빌리티 창원 공장 내 단조 원자로 압력용기 용접 및 가공 정상 진행.</p>
+<p class="line-clamp-1"><strong class="text-primary font-headline-sm text-xs">③</strong> 2032년 준공 시 연간 1만 4,000GWh의 기저전력 공급 능력 확보 전망.</p>
+</div>
+</div>
+<div class="mt-space-md pt-space-xs flex items-center justify-between">
+<div class="flex items-center gap-1.5 flex-wrap">
+<span class="px-2 py-0.5 rounded bg-surface-container-high text-electric-blue-dark font-label-sm text-label-sm">#신한울34호기</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-high text-electric-blue-dark font-label-sm text-label-sm">#기저부하</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-high text-electric-blue-dark font-label-sm text-label-sm">#두산에너빌리티</span>
+</div>
+<span class="material-symbols-outlined text-outline text-[18px] group-hover:translate-x-1 transition-transform group-hover:text-secondary">arrow_forward</span>
+</div>
+</div>
+<!-- Article Card 9 -->
+<div class="article-card group relative bg-surface-card rounded-xl p-space-md shadow-sm hover:shadow-md transition-all cursor-pointer flex flex-col justify-between" data-article-id="9">
+<div class="flex flex-col">
+<div class="flex items-center justify-between gap-space-sm mb-space-sm">
+<div class="flex items-center gap-2">
+<span class="font-headline-sm text-headline-sm font-black text-secondary">09</span>
+<span class="px-2 py-0.5 rounded-lg bg-surface-container-high text-neutral-slate-600 font-label-sm text-label-sm">배전망/스마트그리드</span>
+<span class="font-label-sm text-label-sm text-neutral-slate-600">2026.11.17 09:15</span>
+</div>
+<button aria-label="북마크" class="bookmark-btn p-1.5 rounded-lg text-outline-variant hover:text-volt-amber hover:bg-surface-container-low transition-colors" onclick="event.stopPropagation(); toggleBookmark(this)" type="button">
+<span class="material-symbols-outlined text-[20px]">bookmark</span>
+</button>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary group-hover:text-secondary transition-colors line-clamp-2 leading-snug">
+              도심형 전기차 급속충전기 급증 대응 배전선로 자동 전압제어(SVR) 전면 설치
+            </h3>
+<div class="mt-space-sm space-y-1.5 bg-surface-container-low/50 p-2.5 rounded-lg text-neutral-slate-600 font-body-sm text-body-sm">
+<p class="line-clamp-1"><strong class="text-primary font-headline-sm text-xs">①</strong> 국지적 피크 부하 유발에 따른 전압 강하를 실시간 보상하는 지능형 스텝 전압 조정기.</p>
+<p class="line-clamp-1"><strong class="text-primary font-headline-sm text-xs">②</strong> 수도권 주요 거점 충전소 280개소 연계 배전선로 우선 적용 후 전국 확대.</p>
+<p class="line-clamp-1"><strong class="text-primary font-headline-sm text-xs">③</strong> 전기차 방전(V2G) 실증 인프라 통신 프로토콜과의 정합성 검증 완료.</p>
+</div>
+</div>
+<div class="mt-space-md pt-space-xs flex items-center justify-between">
+<div class="flex items-center gap-1.5 flex-wrap">
+<span class="px-2 py-0.5 rounded bg-surface-container-high text-electric-blue-dark font-label-sm text-label-sm">#배전지능화</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-high text-electric-blue-dark font-label-sm text-label-sm">#SVR</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-high text-electric-blue-dark font-label-sm text-label-sm">#V2G</span>
+</div>
+<span class="material-symbols-outlined text-outline text-[18px] group-hover:translate-x-1 transition-transform group-hover:text-secondary">arrow_forward</span>
+</div>
+</div>
+<!-- Article Card 10 -->
+<div class="article-card group relative bg-surface-card rounded-xl p-space-md shadow-sm hover:shadow-md transition-all cursor-pointer flex flex-col justify-between" data-article-id="10">
+<div class="flex flex-col">
+<div class="flex items-center justify-between gap-space-sm mb-space-sm">
+<div class="flex items-center gap-2">
+<span class="font-headline-sm text-headline-sm font-black text-secondary">10</span>
+<span class="px-2 py-0.5 rounded-lg bg-surface-container-high text-neutral-slate-600 font-label-sm text-label-sm">글로벌 에너지</span>
+<span class="font-label-sm text-label-sm text-neutral-slate-600">2026.11.17 08:30</span>
+</div>
+<button aria-label="북마크" class="bookmark-btn p-1.5 rounded-lg text-outline-variant hover:text-volt-amber hover:bg-surface-container-low transition-colors" onclick="event.stopPropagation(); toggleBookmark(this)" type="button">
+<span class="material-symbols-outlined text-[20px]">bookmark</span>
+</button>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary group-hover:text-secondary transition-colors line-clamp-2 leading-snug">
+              IEA 전력망 보고서 "2030년까지 전 세계 송배전망 2배 증설 안 되면 기후목표 실패"
+            </h3>
+<div class="mt-space-sm space-y-1.5 bg-surface-container-low/50 p-2.5 rounded-lg text-neutral-slate-600 font-body-sm text-body-sm">
+<p class="line-clamp-1"><strong class="text-primary font-headline-sm text-xs">①</strong> 발전설비 확충 속도 대비 송전 인프라 건설 지연이 전 세계적 병목 현상 초래 경고.</p>
+<p class="line-clamp-1"><strong class="text-primary font-headline-sm text-xs">②</strong> 한국 역시 국가기간전력망 확충 특별법의 조속한 국회 처리 필요성 부각.</p>
+<p class="line-clamp-1"><strong class="text-primary font-headline-sm text-xs">③</strong> 구리 등 송전 도체 핵심 원자재 공급망 확보 경쟁 가속화 관측.</p>
+</div>
+</div>
+<div class="mt-space-md pt-space-xs flex items-center justify-between">
+<div class="flex items-center gap-1.5 flex-wrap">
+<span class="px-2 py-0.5 rounded bg-surface-container-high text-electric-blue-dark font-label-sm text-label-sm">#IEA</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-high text-electric-blue-dark font-label-sm text-label-sm">#국가기간전력망</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-high text-electric-blue-dark font-label-sm text-label-sm">#그리드보틀넥</span>
+</div>
+<span class="material-symbols-outlined text-outline text-[18px] group-hover:translate-x-1 transition-transform group-hover:text-secondary">arrow_forward</span>
+</div>
+</div>
+</div>
+<!-- Quick KPI & Analytical Visual Mini-Bar -->
+<div class="w-full bg-surface-card rounded-xl p-space-md shadow-sm flex flex-col md:flex-row items-center justify-between gap-space-md">
+<div class="flex items-center gap-space-md w-full md:w-auto">
+<div class="w-12 h-12 rounded-lg bg-surface-container-low flex items-center justify-center text-secondary shrink-0">
+<span class="material-symbols-outlined text-[28px]">query_stats</span>
+</div>
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm text-primary">어제자 전력 지표 요약 스냅샷</span>
+<span class="font-body-sm text-body-sm text-neutral-slate-600">KPX 실시간 통합 계량치 기준 (11.17 마감)</span>
+</div>
+</div>
+<div class="grid grid-cols-3 gap-space-md w-full md:w-auto text-center divide-x divide-neutral-slate-200">
+<div class="px-space-sm">
+<span class="font-label-sm text-label-sm text-neutral-slate-600 block">최대부하</span>
+<span class="font-headline-sm text-headline-sm text-primary font-mono font-bold">78,412 MW</span>
+</div>
+<div class="px-space-sm">
+<span class="font-label-sm text-label-sm text-neutral-slate-600 block">공급예비율</span>
+<span class="font-headline-sm text-headline-sm text-secondary font-mono font-bold">14.8 %</span>
+</div>
+<div class="px-space-sm">
+<span class="font-label-sm text-label-sm text-neutral-slate-600 block">정규 주파수</span>
+<span class="font-headline-sm text-headline-sm text-volt-amber font-mono font-bold">59.99 Hz</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Inspector Side Panel (Persistent desktop docking inspector, toggleable) -->
+<aside class="w-full xl:w-[440px] shrink-0 sticky top-20 bg-surface-card rounded-xl p-space-lg shadow-sm flex flex-col gap-space-md transition-all" id="inspector-panel">
+<div class="flex items-center justify-between pb-space-sm">
+<div class="flex items-center gap-space-xs">
+<span class="w-2 h-2 rounded-full bg-secondary"></span>
+<span class="font-headline-sm text-headline-sm text-primary">기사 3문장 심층 인스펙터</span>
+</div>
+<div class="flex items-center gap-1">
+<span class="px-2 py-0.5 rounded bg-secondary-fixed text-on-secondary-fixed font-label-sm text-label-sm font-bold" id="inspector-rank">TOP 01</span>
+<span class="font-label-sm text-label-sm text-neutral-slate-600">어제 발행</span>
+</div>
+</div>
+<!-- Selected Article Context -->
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center gap-2">
+<span class="px-2 py-0.5 rounded bg-surface-container-high text-neutral-slate-600 font-label-sm text-label-sm" id="inspector-badge">계통/전력망</span>
+<span class="font-label-sm text-label-sm text-neutral-slate-600" id="inspector-date">2026.11.17 17:40</span>
+</div>
+<h4 class="font-headline-md text-headline-md text-primary leading-snug" id="inspector-title">
+          동해안-수도권 500kV HVDC 1단계 2027년 초 연계 확정... 송전 제약 해소 가시화
+        </h4>
+</div>
+<!-- 3-Sentence Synthesis Frame -->
+<div class="bg-surface-container-low rounded-xl p-space-md flex flex-col gap-space-sm">
+<div class="flex items-center gap-1.5 text-volt-amber">
+<span class="material-symbols-outlined text-[18px]">auto_awesome</span>
+<span class="font-label-md text-label-md font-bold text-primary">공식 요약문</span>
+</div>
+<div class="space-y-space-sm">
+<div class="flex items-start gap-2.5">
+<span class="font-headline-sm text-headline-sm text-secondary font-black shrink-0">1</span>
+<p class="font-body-md text-body-md text-neutral-slate-600" id="inspector-sentence-1">
+              한국전력공사는 강원 삼척 변환소에서 경기 양평 개폐소를 잇는 230km 초고압 직류 송전선로 타워 조립 공정률이 91%를 달성했다고 밝혔습니다.
+            </p>
+</div>
+<div class="flex items-start gap-2.5">
+<span class="font-headline-sm text-headline-sm text-secondary font-black shrink-0">2</span>
+<p class="font-body-md text-body-md text-neutral-slate-600" id="inspector-sentence-2">
+              이에 따라 동해안 신한울 및 화력 발전소에서 발생하던 최대 4.2GW 규모의 장기 송전제약이 상당 부분 해소되어 동부축 계통 안정도가 비약적으로 개선됩니다.
+            </p>
+</div>
+<div class="flex items-start gap-2.5">
+<span class="font-headline-sm text-headline-sm text-secondary font-black shrink-0">3</span>
+<p class="font-body-md text-body-md text-neutral-slate-600" id="inspector-sentence-3">
+              모든 송전선 경과지 기초지자체 및 주민과의 보상 합의가 100% 매듭지어짐으로써 잔여 가선 공사 및 시운전 일정에 속도가 붙을 전망입니다.
+            </p>
+</div>
+</div>
+</div>
+<!-- Key Focus Keywords -->
+<div class="flex flex-col gap-space-xs">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-neutral-slate-600">핵심 연관 키워드</span>
+<div class="flex flex-wrap gap-1.5" id="inspector-tags">
+<span class="px-2.5 py-1 rounded-lg bg-surface-container-high text-electric-blue-dark font-label-md text-label-md hover:bg-secondary-fixed transition-colors">#HVDC직류송전</span>
+<span class="px-2.5 py-1 rounded-lg bg-surface-container-high text-electric-blue-dark font-label-md text-label-md hover:bg-secondary-fixed transition-colors">#신한울발전제약</span>
+<span class="px-2.5 py-1 rounded-lg bg-surface-container-high text-electric-blue-dark font-label-md text-label-md hover:bg-secondary-fixed transition-colors">#동해안전력계통</span>
+</div>
+</div>
+<!-- Outbound Original Jump CTA -->
+<div class="pt-space-xs flex flex-col gap-space-xs">
+<a class="w-full inline-flex items-center justify-center gap-2 py-3 px-space-md rounded-lg bg-primary text-on-primary font-headline-sm text-headline-sm hover:bg-electric-blue-dark transition-colors shadow-sm" href="#" id="inspector-external-link" rel="noopener noreferrer" target="_blank">
+<span>전기신문 원문 기사 확인</span>
+<span class="material-symbols-outlined text-[18px]">open_in_new</span>
+</a>
+<div class="flex items-center justify-between text-neutral-slate-600 font-body-sm text-body-sm px-1">
+<span>기사 번호: E-NEWS-20261117-0941</span>
+<span class="text-secondary font-semibold">공식 제휴 데이터</span>
+</div>
+</div>
+</aside>
+</div>
+<!-- Micro-interaction script for refresh, bookmarks, countdown, and dynamic card selection -->
+<script>
+    (function () {
+      // Dynamic Mock Data for Article Inspection
+      var articlesData = {
+        "1": {
+          rank: "TOP 01",
+          badge: "계통/전력망",
+          date: "2026.11.17 17:40",
+          title: "동해안-수도권 500kV HVDC 1단계 2027년 초 연계 확정... 송전 제약 해소 가시화",
+          s1: "한국전력공사는 강원 삼척 변환소에서 경기 양평 개폐소를 잇는 230km 초고압 직류 송전선로 타워 조립 공정률이 91%를 달성했다고 밝혔습니다.",
+          s2: "이에 따라 동해안 신한울 및 화력 발전소에서 발생하던 최대 4.2GW 규모의 장기 송전제약이 상당 부분 해소되어 동부축 계통 안정도가 비약적으로 개선됩니다.",
+          s3: "모든 송전선 경과지 기초지자체 및 주민과의 보상 합의가 100% 매듭지어짐으로써 잔여 가선 공사 및 시운전 일정에 속도가 붙을 전망입니다.",
+          tags: ["#HVDC직류송전", "#신한울발전제약", "#동해안전력계통", "#초고압선로"]
+        },
+        "2": {
+          rank: "TOP 02",
+          badge: "전력시장",
+          date: "2026.11.17 16:30",
+          title: "11월 중순 전력거래소 육지 SMP 118.4원 기록, LNG 수입가격 하향 안정 효과",
+          s1: "전력도매가격(SMP)이 글로벌 LNG 현물가격 안정세와 원전 가동률 84% 유지에 힘입어 전월 평균 대비 6.8원 하락한 118.4원으로 마감했습니다.",
+          s2: "동계 전력수급 대책기간을 앞두고 전력 구입 비용이 소폭 절감되면서 한국전력공사의 재무적 부담이 완화 국면에 접어들고 있습니다.",
+          s3: "전력거래소는 민간 LNG 발전사 정산조정계수 추가 개편안과 용량요금 보완 지침을 12월 전력시장 규칙개정위에 상정할 계획입니다.",
+          tags: ["#SMP", "#전력거래소", "#LNG단가", "#도매전력시장"]
+        },
+        "3": {
+          rank: "TOP 03",
+          badge: "원전/정책",
+          date: "2026.11.17 15:10",
+          title: "체코 두코바니 신규 원전 최종 본계약 체결 협상단 프라하 급파",
+          s1: "한국수력원자력과 팀코리아 협상단은 두코바니 5·6호기 건설 최종 본계약 세부 금융조달 및 기술사양 확정을 위해 프라하로 출국했습니다.",
+          s2: "체코 정부가 제기했던 현지화 비율 및 기자재 협력사 참여 쿼터가 65% 수준으로 원만히 조율되며 연내 본계약 타결이 확실시됩니다.",
+          s3: "이번 수출 모델인 APR1000 노형은 유럽 사업자 인증(EUR)을 기취득하여 인허가 리스크가 매우 낮다는 점이 최종 강점으로 꼽힙니다.",
+          tags: ["#체코원전", "#두코바니", "#한수원", "#APR1000"]
+        },
+        "4": {
+          rank: "TOP 04",
+          badge: "신재생/ESS",
+          date: "2026.11.17 14:05",
+          title: "제주 재생에너지 실시간 입찰제도 도입 2년차... 계통 오차율 3%대로 축소",
+          s1: "제주도 전력계통에서 시범 운영 중인 재생에너지 실시간 입찰제가 정밀 기상 예측 알고리즘의 결합으로 입찰 오차율을 3.8%까지 낮췄습니다.",
+          s2: "이에 따라 기저발전기의 잦은 기동정지 비용이 연간 140억원가량 절감되었으며 계통 수용 능력이 18% 추가 증대되었습니다.",
+          s3: "산업부와 KPX는 이번 성과를 발판으로 2026년 하반기 전남 및 전북 호남 계통으로 실시간 입찰제도를 전격 확대 적용합니다.",
+          tags: ["#제주실시간입찰", "#KPX", "#VPP", "#오차율절감"]
+        },
+        "5": {
+          rank: "TOP 05",
+          badge: "산업/요금",
+          date: "2026.11.17 11:55",
+          title: "산업용 전기요금 구조개편 심포지엄 개최... 지역별 차등요금제(LMP) 단계적 도입안",
+          s1: "전력 다소비 업종의 수도권 집중을 완화하기 위한 지역별 차등 전기요금제 도입 로드맵 초안이 에너지경제연구원을 통해 공개되었습니다.",
+          s2: "발전소와 송전선로가 집중된 비수도권에 저렴한 단가를 제공하고, 장거리 송전비용이 발생하는 수도권에는 높은 단가를 부과하는 방식입니다.",
+          s3: "산업계는 수도권 신설 데이터센터와 반도체 클러스터 입지 선정에 직접적 파급효과가 예상되므로 3년 유예 기간 설정을 요청했습니다.",
+          tags: ["#지역별차등요금제", "#LMP", "#산업용전기", "#데이터센터"]
+        },
+        "6": {
+          rank: "TOP 06",
+          badge: "탄소중립/수소",
+          date: "2026.11.17 11:20",
+          title: "청정수소발전의무화(CHPS) 입찰 시장 개설 1년, 350MW급 첫 상업발전 가동 승인",
+          s1: "수소와 천연가스를 50:50으로 혼소하는 고효율 복합화력 발전설비가 국가 안전 검사를 완료하고 국내 최초로 전력망에 연계되었습니다.",
+          s2: "실측 탄소 배출량이 기존 대비 21.4% 감소하여 정부 2030 온실가스 감축목표(NDC) 달성을 위한 핵심 분기점을 마련했습니다.",
+          s3: "한국전력 발전자회사들은 2028년까지 70% 혼소, 2035년까지 100% 전소 터빈 도입을 위한 파일럿 프로젝트에 착수합니다.",
+          tags: ["#CHPS", "#수소혼소발전", "#탄소감축", "#NDC2030"]
+        },
+        "7": {
+          rank: "TOP 07",
+          badge: "변전/설비",
+          date: "2026.11.17 10:45",
+          title: "변전소 디지털 트윈 및 SF6 감축용 친환경 GIS(가스절연개폐기) 발주 확대",
+          s1: "한국전력공사는 온실가스 주범으로 꼽히는 SF6(육불화황) 가스를 일절 사용하지 않는 친환경 친환경가스절연개폐기(GIS) 170kV 규격을 전면 채택했습니다.",
+          s2: "국내 중전기기 3사가 개발한 불소화합물 대체 가스 모델이 전국 45개 변전소 개체 사업에 일괄 적용되어 연간 40만톤 CO2 저감이 기대됩니다.",
+          s3: "아울러 AI 센서 기반의 디지털 트윈 모니터링 시스템을 도입하여 돌발 설비 고장 사전 감지율을 98%까지 제고했습니다.",
+          tags: ["#친환경GIS", "#SF6감축", "#디지털변전소", "#한전설비"]
+        },
+        "8": {
+          rank: "TOP 08",
+          badge: "원자력",
+          date: "2026.11.17 09:50",
+          title: "신한울 3·4호기 본관 기초 굴착 공사 완료, 주기기 제작 공정률 35% 돌파",
+          s1: "원자력안전위원회의 건설 허가 이후 신한울 3·4호기 원자로 건물 기초 암반 굴착 작업이 예정보다 2주 앞서 안전 검사를 통과했습니다.",
+          s2: "두산에너빌리티 창원 공장에서는 원자로 압력용기와 증기발생기 단조 성형 작업이 순항하며 주기기 제작 공정률 35%를 넘어섰습니다.",
+          s3: "2032년 신한울 3호기, 2033년 4호기가 차례로 계통에 병입되면 연간 1만 4,000GWh의 청정 기저전력이 수도권과 영남권에 공급됩니다.",
+          tags: ["#신한울34호기", "#원전주기기", "#두산에너빌리티", "#기저부하"]
+        },
+        "9": {
+          rank: "TOP 09",
+          badge: "배전망/스마트그리드",
+          date: "2026.11.17 09:15",
+          title: "도심형 전기차 급속충전기 급증 대응 배전선로 자동 전압제어(SVR) 전면 설치",
+          s1: "도심 내 초급속 전기차 충전 허브 집중으로 인한 배전망 국지 전압 강하를 방지하기 위해 지능형 스텝 전압 조정기(SVR)가 전격 설치됩니다.",
+          s2: "한전 배전운영처는 수도권 및 광역시 280개 주요 고밀도 충전 구역의 변압기 2차 측에 IoT 기반 능동 전압 보상 모듈을 탑재했습니다.",
+          s3: "향후 전기차 배터리 전력을 피크시간대에 역송전하는 V2G(Vehicle-to-Grid) 인프라와의 양방향 통신 실증도 성공적으로 완료되었습니다.",
+          tags: ["#배전전압제어", "#SVR", "#전기차충전망", "#V2G"]
+        },
+        "10": {
+          rank: "TOP 10",
+          badge: "글로벌 에너지",
+          date: "2026.11.17 08:30",
+          title: "IEA 전력망 보고서 \"2030년까지 전 세계 송배전망 2배 증설 안 되면 기후목표 실패\"",
+          s1: "국제에너지기구(IEA)는 전 세계적으로 송전망 건설 속도가 발전설비 보급 속도를 따라가지 못해 대규모 발전 제약이 발생하고 있다고 경고했습니다.",
+          s2: "재생에너지 대기 물량만 3,000GW에 달해 송배전망 투자를 현재 연간 3,000억 달러에서 6,000억 달러 수준으로 두 배 이상 늘려야 한다고 촉구했습니다.",
+          s3: "한국 역시 계통 포화 문제를 타개하기 위해 발의된 '국가기간전력망 확충 특별법'의 입법 지원이 시급하다는 목소리가 힘을 얻고 있습니다.",
+          tags: ["#IEA전력망보고서", "#국가기간전력망특별법", "#계통포화", "#글로벌에너지"]
+        }
+      };
+
+      // Card Selection Micro-Interaction
+      var cards = document.querySelectorAll('.article-card');
+      var inspectorTitle = document.getElementById('inspector-title');
+      var inspectorRank = document.getElementById('inspector-rank');
+      var inspectorBadge = document.getElementById('inspector-badge');
+      var inspectorDate = document.getElementById('inspector-date');
+      var s1 = document.getElementById('inspector-sentence-1');
+      var s2 = document.getElementById('inspector-sentence-2');
+      var s3 = document.getElementById('inspector-sentence-3');
+      var tagsContainer = document.getElementById('inspector-tags');
+
+      cards.forEach(function (card) {
+        card.addEventListener('click', function () {
+          var id = this.getAttribute('data-article-id');
+          var data = articlesData[id];
+          if (!data) return;
+
+          // Remove selected ring styles from siblings
+          cards.forEach(function (c) {
+            c.classList.remove('ring-2', 'ring-secondary', 'bg-surface-container-low/30');
+          });
+          // Add active style to selected card
+          this.classList.add('ring-2', 'ring-secondary', 'bg-surface-container-low/30');
+
+          // Update Inspector Panel with smooth visual transition
+          inspectorRank.textContent = data.rank;
+          inspectorBadge.textContent = data.badge;
+          inspectorDate.textContent = data.date;
+          inspectorTitle.textContent = data.title;
+          s1.textContent = data.s1;
+          s2.textContent = data.s2;
+          s3.textContent = data.s3;
+
+          // Update Tag Pills
+          tagsContainer.innerHTML = '';
+          data.tags.forEach(function (tag) {
+            var span = document.createElement('span');
+            span.className = 'px-2.5 py-1 rounded-lg bg-surface-container-high text-electric-blue-dark font-label-md text-label-md hover:bg-secondary-fixed transition-colors';
+            span.textContent = tag;
+            tagsContainer.appendChild(span);
+          });
+
+          // Scroll inspector smoothly into view on smaller displays if stacked
+          if (window.innerWidth < 1280) {
+            document.getElementById('inspector-panel').scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+          }
+        });
+      });
+
+      // Default highlight first article card
+      if (cards.length > 0) {
+        cards[0].classList.add('ring-2', 'ring-secondary', 'bg-surface-container-low/30');
+      }
+
+      // Bookmark Toggle Micro-interaction
+      window.toggleBookmark = function (btn) {
+        var icon = btn.querySelector('.material-symbols-outlined');
+        var isFilled = icon.style.fontVariationSettings && icon.style.fontVariationSettings.indexOf("'FILL' 1") !== -1;
+        if (isFilled) {
+          icon.style.fontVariationSettings = "'FILL' 0";
+          btn.classList.remove('text-volt-amber');
+          btn.classList.add('text-outline-variant');
+        } else {
+          icon.style.fontVariationSettings = "'FILL' 1";
+          btn.classList.remove('text-outline-variant');
+          btn.classList.add('text-volt-amber');
+        }
+      };
+
+      // Refresh Button Animation & Simulation
+      var refreshBtn = document.getElementById('refresh-action-btn');
+      var refreshIcon = document.getElementById('refresh-icon');
+      if (refreshBtn && refreshIcon) {
+        refreshBtn.addEventListener('click', function () {
+          refreshIcon.classList.add('animate-spin');
+          refreshBtn.disabled = true;
+          refreshBtn.classList.add('opacity-75');
+
+          setTimeout(function () {
+            refreshIcon.classList.remove('animate-spin');
+            refreshBtn.disabled = false;
+            refreshBtn.classList.remove('opacity-75');
+            alert('파이프라인 조회 결과: 금일자(2026.11.18) 데이터가 아직 생성 중입니다.\n10:00 KST에 자동 갱신됩니다.');
+          }, 900);
+        });
+      }
+
+      // Dynamic Countdown Timer (Counting down to 10:00 AM)
+      var countdownEl = document.getElementById('countdown-timer');
+      var totalSeconds = 18 * 60 + 42; // 18m 42s demo seed
+      setInterval(function () {
+        if (totalSeconds > 0) {
+          totalSeconds--;
+          var hours = Math.floor(totalSeconds / 3600);
+          var minutes = Math.floor((totalSeconds % 3600) / 60);
+          var seconds = totalSeconds % 60;
+          countdownEl.textContent =
+            (hours < 10 ? '0' + hours : hours) + ':' +
+            (minutes < 10 ? '0' + minutes : minutes) + ':' +
+            (seconds < 10 ? '0' + seconds : seconds);
+        } else {
+          countdownEl.textContent = '00:00:00';
+        }
+      }, 1000);
+
+    })();
+  </script>
+</div></div></main><footer class="w-full bg-surface-card shadow-[0_-1px_6px_rgba(0,0,0,0.03)]"><div class="max-w-7xl mx-auto px-gutter py-space-lg flex flex-col md:flex-row items-center justify-between gap-space-md font-body-sm text-body-sm text-neutral-slate-600"><div class="flex items-center gap-space-sm"><span class="font-headline-sm text-headline-sm text-primary">전기 데일리 브리핑</span><span class="text-outline-variant">|</span><span>한국전력 및 전력시장 핵심 속보 5분 압축 분석</span></div><div class="flex items-center gap-space-md"><span class="font-label-sm text-label-sm bg-neutral-slate-50 px-space-sm py-1 rounded text-neutral-slate-600">KPX · KEPCO 정보망 연계</span><span>© 2026 Daily Electric Briefing. All rights reserved.</span></div></div></footer></body></html>

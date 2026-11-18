@@ -1,0 +1,6 @@
+{
+  "name": "전기 데일리 브리핑 (Daily Electric Briefing)",
+  "description": "한국전력 및 전력시장 핵심 속보 5분 압축 분석 데일리 브리핑 서비스",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
